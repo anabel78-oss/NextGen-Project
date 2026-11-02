@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Anabel Obieze Portfolio</title>
+    <meta name="claude:viewport-fit-sides" content="cover">
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap">
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <!-- Navigation -->
+        <header class="nav" id="nav">
+            <div class="wrap nav-in">
+                <a class="logo" href="#home" aria-label="Anabel Obieze home">
+                    <span class="logo-mark"></span>Anabel.
+                </a>
+                <nav class="links" aria-label="Primary">
+                    <a href="#home" data-s="home" class="active">Home</a>
+                    <a href="#about" data-s="about">About</a>
+                    <a href="#portfolio" data-s="portfolio">Portfolio</a>
+                    <a href="#service" data-s="service">Service</a>
+                    <a href="#blog" data-s="blog">Blog</a>
+                    <a href="#contact" data-s="contact">Contact</a>
+                </nav>
+                <button class="pill solid dl" type="button" id="cvBtn">Download CV</button>
+                <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false">
+                    <i></i><i></i><i></i>
+                </button>
+            </div>
+        </header>
+        
+        <!-- Mobile Drawer -->
+        <div class="drawer" id="drawer">
+            <a class="l" href="#home" data-s="home">Home</a>
+            <a class="l" href="#about" data-s="about">About</a>
+            <a class="l" href="#portfolio" data-s="portfolio">Portfolio</a>
+            <a class="l" href="#service" data-s="service">Service</a>
+            <a class="l" href="#blog" data-s="blog">Blog</a>
+            <a class="l" href="#contact" data-s="contact">Contact</a>
+            <button class="pill solid" type="button" id="cvBtn2">Download CV</button>
+        </div>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero" id="home">
+                <div class="lines" aria-hidden="true">
+                    <b></b><i></i><i></i><i></i>
+                </div>
+                <div class="wrap hero-grid">
+                    <div>
+                        <p class="hello">Hello, I'm</p>
+                        <h1>Anabel Obieze<br>Product Manager &amp; Web Developer</h1>
+                        <p class="lede">I turn fuzzy ideas into products people use. I plan the roadmap, shape the experience and build the website or app myself, so your project moves from brief to launch with one person accountable.</p>
+                        <div class="cta">
+                            <a class="pill solid" href="#contact">Hire Me</a>
+                            <a class="pill ghost" href="#portfolio">See My Work</a>
+                        </div>
+                        <p class="avail"><i></i>Booking new projects for November</p>
+                    </div>
+                    <div class="portrait" id="portrait">
+                        <img src="image/Anabel image.jpg" alt="Anabel Obieze" style="width:100%;height:100%;object-fit:cover;object-position:top;border-radius:20px;">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Client Strip -->
+            <section class="strip" aria-label="Places I've worked">
+                <div class="wrap strip-in">
+                    <small>A Few Of The Places I Work</small>
+                    <div class="brands" aria-label="Sample client names">
+                        <span class="b1">◆Omacart Ltd</span>
+                        <span class="b2">Genesys Learnabel</span>
+                        <span class="b3">Next-Gen</span>
+                        <span class="b4">TEWORH Sports & Skills Centre</span>
+                        <span class="b5">Genesys Upskill</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills" aria-label="Skills">
+                <div class="wrap skills-in">
+                    <div class="cards">
+                        <div class="sk" style="--c:#14c8a8"><b>95%</b><span>Product Strategy</span></div>
+                        <div class="sk" style="--c:#4d57ff"><b>85%</b><span>Cross-functional Collaboration &amp; AI Automation</span></div>
+                        <div class="sk" style="--c:#f5a524"><b>88%</b><span>HTML & CSS</span></div>
+                        <div class="sk" style="--c:#a855f7"><b>78%</b><span>Website Development &amp; Implementation </span></div>
+                    </div>
+                    <p class="skills-note">Self-rated confidence across the work clients hire me for most.</p>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="block" id="about">
+                <div class="wrap about">
+                    <div class="about-art" aria-hidden="true">
+                        <span class="ring"></span><span class="ring"></span>
+                        <strong>2+</strong><em>years shipping products</em>
+                    </div>
+                    <div>
+                        <p class="eyebrow">About me</p>
+                        <h2 class="h2">I manage the product and write the code.</h2>
+                        <p style="margin-top:18px">I bridge the gap between planning a product and building it. I define requirements, prioritise features, work with teams to bring ideas to life, and build websites with code.</p>
+                        <p>My product experience keeps me focused on solving real user problems, while my web development skills help me turn ideas into practical digital experiences.</p>
+                        <div class="facts">
+                            <div class="fact"><b>Product Management</b><span>Roadmaps & delivery</span></div>
+                            <div class="fact"><b>AI Automation</b><span>Workflow improvement</span></div>
+                            <div class="fact"><b>Web Development</b><span>Website building</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="block" id="service" style="padding-top:0">
+                <div class="wrap">
+                    <div class="head">
+                        <div>
+                            <p class="eyebrow">Services</p>
+                            <h2 class="h2">How I can help your business</h2>
+                            <p class="sub">Pick one service or combine them. Every engagement starts with a free 30-minute call.</p>
+                        </div>
+                    </div>
+                    <div class="svc-grid">
+                        <article class="svc">
+                            <div class="ic">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/>
+                                </svg>
+                            </div>
+                            <h3>Product Management</h3>
+                            <p>Helping teams turn business goals and user needs into clear product decisions and deliverables.</p>
+                            <ul><li>Product discovery and research</li><li>Roadmaps and feature prioritisation</li><li>Stakeholder coordination and delivery tracking</li></ul>
+                        </article>
+                        <article class="svc">
+                            <div class="ic">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/>
+                                </svg>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Creating responsive, accessible and user-friendly digital experiences.</p>
+                            <ul><li>HTML5, CSS3 and JavaScript</li><li>Responsive website development</li><li>Interactive user interfaces</li></ul>
+                        </article>
+                        <article class="svc">
+                            <div class="ic">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+                                </svg>
+                            </div>
+                            <h3>AI Automation</h3>
+                            <p>Helping businesses reduce repetitive work and improve workflows using AI-powered tools and automation.</p>
+                            <ul><li>Workflow automation</li><li>Automated data collection and organisation</li><li>AI tools and productivity integrations</li></ul>
+                        </article>
+                        <article class="svc">
+                            <div class="ic">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2.1-.1-2.9-.8-.8-2.1-.8-2.9-.1z"/>
+                                    <path d="M12 15l-3-3a22 22 0 012-4 12 12 0 0111-6c0 3-1 8-6 11a22 22 0 01-4 2z"/>
+                                </svg>
+                            </div>
+                            <h3>MVP Sprint</h3>
+                            <p>Go from idea to a live, testable product in six weeks.</p>
+                            <ul><li>Scope workshop</li><li>Design and build</li><li>Launch and first feedback</li></ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section class="block" id="portfolio" style="padding-top:0">
+                <div class="wrap">
+                    <div class="head">
+                        <div>
+                            <p class="eyebrow">Portfolio</p>
+                            <h2 class="h2">Selected work</h2>
+                            <p class="sub">Select a project to read the short case study.</p>
+                        </div>
+                        <div class="filters" role="group" aria-label="Filter projects">
+                            <button class="chip" type="button" data-f="all" aria-pressed="true">All</button>
+                            <button class="chip" type="button" data-f="product" aria-pressed="false">Product</button>
+                            <button class="chip" type="button" data-f="web" aria-pressed="false">Web</button>
+                        </div>
+                    </div>
+                    <div class="work-grid" id="work"></div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="block" id="experience" style="padding-top:0">
+                <div class="wrap xp">
+                    <div>
+                        <p class="eyebrow">Experience</p>
+                        <h2 class="h2">Where I've worked</h2>
+                        <p class="sub">Building digital experiences and leading product development through a blend of technical and product skills.</p>
+                        <div class="quote">
+                            <p>“Anabel is proactive, committed, and brings a strong sense of ownership to her work. She communicates well, collaborates with the team, and is always willing to find solutions that move the project forward.”</p>
+                            <footer><b>Supervisor /</b> CEO, Omacart Ltd</footer>
+                        </div>
+                    </div>
+                    <ol class="tl">
+                        <li class="now"><time>2025 – Present</time><h3>Product Manager</h3><span class="co">Omacart Ltd</span><p>Lead product strategy, roadmap planning, requirements, and delivery across Omacart's marketplace platforms, working with a cross-functional team to improve the shopping and fulfilment experience. Grew activation from 0% to 63%.</p></li>
+                        <li><time>2025 – 2026</time><h3>Associate Product Manager</h3><span class="co">Internflare Tech Hub</span><p>Contribute to product planning and execution, supporting product development activities and collaborating with teams to move ideas into actionable solutions.</p></li>
+                        <li><time>2025 – 2026</time><h3>Frontend Developer</h3><span class="co">Genesys Upskill</span><p>Building practical projects in frontend development through hands-on projects using HTML, CSS, and JavaScript, with experience in responsive design, forms, Flexbox, animations, and interactive web pages.</p></li>
+                        <li><time>2024 – 2025</time><h3>Product Manager Intern</h3><span class="co">Genesys Tech Hub</span><p>Defined product requirements, supported MVP development, coordinated weekly stand-ups, and helped drive product delivery.</p></li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- Blog Section -->
+            <section class="block" id="blog" style="padding-top:0">
+                <div class="wrap">
+                    <div class="head"><div><p class="eyebrow">Blog</p><h2 class="h2">Notes from the field</h2></div></div>
+                    <div class="blog-grid">
+                        <article class="post"><small>Product · 6 min read</small><h3>From Product Thinking to Building: Why I Decided to Learn Frontend Development</h3><p>How my experience in Product Management inspired me to learn HTML, CSS and JavaScript, and how understanding the building process is changing the way I think about digital products.</p><a href="https://medium.com/@anabelnnenna78/from-product-thinking-to-building-why-i-decided-to-learn-frontend-development-cf8446f17e4d?sharedUserId=anabelnnenna78" target="_blank" rel="noopener noreferrer">Read article →</a></article>
+                        <article class="post"><small>Frontend Development · 5 min read</small><h3>CSS Is Teaching Me More Than How to Style a Web Page</h3><p>What learning Flexbox, pricing layouts and CSS animations has taught me about structure, problem-solving and creating better user experiences.</p><a href="https://medium.com/@anabelnnenna78" target="_blank" rel="noopener noreferrer">Read article →</a></article>
+                        <article class="post"><small>AI & Automation · 4 min read</small><h3>My growing interest in using AI and automation to simplify repetitive tasks, improve processes and create more efficient ways of working.</p><a href="#blog" data-soon>Read article →</a></article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="wrap contact-grid">
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2 class="h2">Let's build something people use.</h2>
+                    <p class="sub">Tell me about your product or website. I reply within one working day.</p>
+                    <ul class="ct-list">
+                        <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></span><span><small>Email</small>anabel@anabelobieze.site</span></li>
+                        <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span><span><small>Working hours</small>Mon – Fri, 9am – 5pm WAT</span></li>
+                        <li><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/></svg></span><span><small>Availability</small>Remote, working with clients worldwide</span></li>
+                    </ul>
+                </div>
+                <form id="form" novalidate>
+                    <div class="row2">
+                        <label for="fn">Your name<input id="fn" name="name" autocomplete="name" placeholder="Jane Doe"><span class="err" data-for="fn"></span></label>
+                        <label for="fe">Email<input id="fe" name="email" type="email" autocomplete="email" placeholder="jane@company.com"><span class="err" data-for="fe"></span></label>
+                    </div>
+                    <div>
+                        <p style="font-size:12px;font-weight:500;color:var(--muted);margin-bottom:8px">I'm looking for</p>
+                        <div class="type" id="type">
+                            <button class="chip" type="button" aria-pressed="true">Product management</button>
+                            <button class="chip" type="button" aria-pressed="false">Web development</button>
+                            <button class="chip" type="button" aria-pressed="false">MVP sprint</button>
+                        </div>
+                    </div>
+                    <label for="fm">Project details<textarea id="fm" name="message" placeholder="What are you building and when do you need it?"></textarea><span class="err" data-for="fm"></span></label>
+                    <button class="pill solid" type="submit" style="padding:14px">Send message</button>
+                    <div class="done" role="status">
+                        <span class="okc"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
+                        <h3>Message ready to send</h3>
+                        <p>In the live site, this lands in Anabel's inbox. This prototype does not send anything.</p>
+                        <button class="pill ghost" type="button" id="again" style="margin-top:20px">Write another</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer class="site">
+        <div class="wrap foot">
+            <span>© 2026 Anabel Obieze. Sample projects and figures are placeholders.</span>
+            <span class="soc"><a href="#home" data-soon>LinkedIn</a><a href="#home" data-soon>GitHub</a><a href="#home" data-soon>X</a><a href="#home" data-soon>Dribbble</a></span>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+        <div class="sheet-wrap"><button class="xbtn" id="mClose" type="button" aria-label="Close">×</button><div class="sheet" id="sheet"></div></div>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+
+    <!-- External JavaScript -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
